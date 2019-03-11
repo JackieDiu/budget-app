@@ -12,7 +12,7 @@ class CalcBudget extends React.Component {
 
   handleChange(event) {
     this.setState({
-      value: event.target.value
+      calcValue: event.target.value
     });
   }
 
@@ -26,8 +26,7 @@ class CalcBudget extends React.Component {
       <React.Fragment>
         <form className="calcBudget">
           <label>
-            BUDGET APP
-            <div>Please Enter Your Budget</div>
+            <div className="text">Please Enter Your Budget</div>
             <input
               type="text"
               value={this.state.value}

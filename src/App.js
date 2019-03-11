@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>BUDGET APP</h1>
         <div className="budget">
           <CalcBudget />
         </div>

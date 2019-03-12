@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: auto;
 }
 
 .App-logo {
@@ -30,4 +30,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.calcBudget {
+  border: 0.1em solid #084b22;
+  border-radius: 3px;
+  padding: 0.4em 1em;
+  margin: 1em;
+}
+
+.calcBudget label .text {
+  padding: 0.4em 0;
+}
+
+.calcBtn {
+  display: flex;
+  margin: 1em 0 0.5em 0;
+}
+
+.calcExpense {
+  border: 0.1em solid #cf0d0d;
+  border-radius: 3px;
+  padding: 0.4em 1em;
+  margin: 1em;
+}
+
+.calcExpense label .text {
+  padding: 0.4em 0;
+}
+
+.expenseBtn {
+  display: flex;
+  margin: 1em 0 0.5em 0;
+}
+
+input {
+  input-radius: 3px;
 }

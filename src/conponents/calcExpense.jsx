@@ -22,7 +22,7 @@ class CalcExpense extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <form>
+        <form className="calcExpense">
           <label>
             <div className="text">Please Enter Your Expense</div>
             <input
@@ -35,11 +35,12 @@ class CalcExpense extends React.Component {
             <div className="text">Please Enter Expense Amount</div>
             <input
               type="text"
+              className="form-control"
               value={this.state.value}
               onChange={this.handleChange}
             />
           </label>
-          <button type="submit" onClick={this.onSubmit}>
+          <button type="submit" className="expenseBtn" onClick={this.onSubmit}>
             Add Expense
           </button>
         </form>

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../src/App";
 
 class CalcBudget extends React.Component {
   constructor(props) {
@@ -29,6 +30,7 @@ class CalcBudget extends React.Component {
             <div className="text">Please Enter Your Budget</div>
             <input
               type="text"
+              className="form-control"
               value={this.state.value}
               onChange={this.handleChange}
             />
